@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/developmentwdroc/public_html/laraveldeploy
+    - /bin/cp -R * $DEPLOYPATH
